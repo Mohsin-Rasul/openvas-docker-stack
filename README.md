@@ -21,8 +21,8 @@ To deploy this infrastructure, ensure you have the following installed on your h
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YourUsername/your-repo-name.git](https://github.com/YourUsername/your-repo-name.git)
-   cd your-repo-name
+   git clone https://github.com/Mohsin-Rasul/openvas-docker-stack.git
+   cd openvas-docker-stack
 
 ```
 
@@ -50,9 +50,5 @@ Once the containers are successfully running, you can access the Greenbone Secur
 From the dashboard, you can configure target networks, schedule automated scans, or import the provided `real_openvas_report.xml` to analyze the vulnerability findings, CVSS scores, and remediation steps.
 
 ```
-
----
-
-Are you planning to integrate this containerized OpenVAS deployment with a SIEM like Wazuh or Splunk to centralize the vulnerability logs?
 
 ```
