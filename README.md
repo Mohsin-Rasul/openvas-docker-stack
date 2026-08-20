@@ -24,14 +24,14 @@ To deploy this infrastructure, ensure you have the following installed on your h
    git clone https://github.com/Mohsin-Rasul/openvas-docker-stack.git
    cd openvas-docker-stack
 
-```
+   ```
 
 2. **Deploy the stack:**
 Execute the following command to download the necessary images and start the services in the background:
-```bash
-docker compose up -d
+   ```bash
+   docker compose up -d
 
-```
+    ```
 
 
 3. **Verify container health:**
@@ -48,7 +48,3 @@ docker compose ps
 Once the containers are successfully running, you can access the Greenbone Security Assistant (GSA) web interface (typically on port 9392, depending on your `compose.yaml` mapping).
 
 From the dashboard, you can configure target networks, schedule automated scans, or import the provided `real_openvas_report.xml` to analyze the vulnerability findings, CVSS scores, and remediation steps.
-
-```
-
-```
