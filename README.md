@@ -36,10 +36,10 @@ Execute the following command to download the necessary images and start the ser
 
 3. **Verify container health:**
 Check the status of your deployment to ensure the OpenVAS manager, scanner, and web interface are running correctly:
-```bash
-docker compose ps
+   ```bash
+   docker compose ps
 
-```
+   ```
 
 
 
